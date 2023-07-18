@@ -13,7 +13,7 @@
     "require": {
         "php": ">=7.2|^8.0",
       	"ext-gd": "*",
-        "bacon/bacon-qr-code": "^2.0"
+        "enterprize1701/bacon-qr-code": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "~1",
@@ -40,5 +40,11 @@
                 "QrCode": "SimpleSoftwareIO\\QrCode\\Facades\\QrCode"
             }
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Enterprize-1701/BaconQrCodeFixed"
+        }
+    ]
 }
